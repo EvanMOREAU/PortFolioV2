@@ -1,0 +1,283 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <meta name="description" content=">Portfolio">
+    <meta name="author" content="Evan Moreau">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="css/animate.min.css" rel="stylesheet" >	
+	<link href="css/font-awesome.min.css" rel="stylesheet">	
+	<link href="css/icofont.css" rel="stylesheet">
+	<link href="css/prettyPhoto.css" rel="stylesheet">
+	<link href="css/theme.css" rel="stylesheet">	
+	<link href="css/responsive.css" rel="stylesheet">
+	<link href="bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+	<link href="css/arsha.css" rel="stylesheet">
+	<link href="css/blue.css" rel="stylesheet" class="colors">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+	
+	<link rel="icon" href="img/favicon.ico">
+</head>
+<body data-spy="scroll" data-target="#mynav" data-offset="85">
+<div id="preloader">
+	<div id="status">
+		<div class="spinner">
+			  <div class="rect1"></div>
+			  <div class="rect2"></div>
+			  <div class="rect3"></div>
+			  <div class="rect4"></div>
+			  <div class="rect5"></div>
+		</div>
+	</div>
+</div>
+<header>
+<div id="navigation">
+	<div class="navbar-wrapper">
+		<nav class="navbar-inverse navbar-static-top" role="navigation">
+			<nav class="navbar navbar-dark bg-dark fixed-top">
+				<div class="container-fluid">
+				  <a class="navbar-brand" href="index.html">Portfolio</a>
+				  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+					<div class="offcanvas-header">
+					  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Navigation</h5>
+					  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+					</div>
+					<div class="offcanvas-body">
+					  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+						<li class="nav-item">
+						  <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="me.html">Qui suis-je ?</a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link" href="CV.html">Curriculum vitæ</a>
+						</li>
+						<li class="nav-item dropdown">
+						  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Compétences
+						  </a>
+						  <ul class="dropdown-menu dropdown-menu-dark">
+							<li><a class="dropdown-item" href="CompSISR.html">SISR</a></li>
+							<li><a class="dropdown-item" href="CompSLAM.html">SLAM</a></li>
+							<li>
+							  <hr class="dropdown-divider">
+							</li>
+							<li><a class="dropdown-item" href="CompSIO.html">SIO - (SISR & SLAM)</a></li>
+						  </ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="Projet.html">Projets</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="Veille.html">Veille</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.php">Contact</a>
+						</li>
+					  </ul>
+					  <form class="d-flex mt-3" role="search">
+						<input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
+						<button class="btn btn-success" type="submit">Rechercher</button>
+					  </form>
+					</div>
+				  </div>
+				</div>
+			  </nav>
+		</nav>
+	</div>
+</div>
+<section id="home">
+    <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+			<div class="item active" style="background-image: url(img/pexels-nino-souza-2278095-1920x1080-30fps.gif) ; filter : blur(5px);     background-attachment: fixed; 
+			background-size: cover;"></div>
+				<div class="caption">
+					<h1 class="animated fadeInLeftBig">Projets<strong> Professionels</strong></h1>
+					<a data-scroll class="learn-more animated fadeInUpBig" href="#projet">Voir les projets</a>
+				</div>
+			
+        </div>
+    </div>	
+</section>
+</header>
+<section class="section-wrapper" id="projet">
+	<div class="team">
+		<div class="meet-the-team">			
+			<div class="element-title">			
+				<div class="row">	 		
+					<div class="container">	 
+					<div class="section-title wow fadeInDown" data-wow-duration="1s" data-wow-delay="300ms">			
+						<h1><span>Projets</span></h1>
+						<br>								
+						<div class="row">
+							<div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+								<div class="member d-flex align-items-start">
+									<div class="pic"><img src="img/PIKPIK_Le_Poivre_Normand_Texte_2.png" class="img-fluid" alt=""></div>
+									<div class="member-info">
+									<h4>PikPik</h4>
+									<p>PikPik Le Poivre Normand - Mini entreprise 3èmes pro Notre Dame de La Providence</p>
+									<br>
+										<div align="center"><button type="button" class="btn btn-warning" data-bs-toggle="offcanvas" data-bs-target="#PIKPIKCANVA" aria-controls="PIKPIKCANVA" >
+											Détails
+											</button>
+										</div>
+
+										<div class="offcanvas offcanvas-start" tabindex="-1" id="PIKPIKCANVA" aria-labelledby="PIKPIKCANVALABEL">
+											<div class="offcanvas-header">
+											<h5 class="offcanvas-title" id="PIKPIKCANVALABEL">PikPik</h5>
+											<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+											</div>
+											<div class="offcanvas-body">
+												<div>
+													La mini entreprise "PikPik Le Poivre Normand" a été créée par une classe de 3ème professionnelle du Lycée Notre Dame de La Providence.<br>
+												</div>
+												<div class="dropdown mt-3">
+													<a href="https://pikpik.bts.sio-ndlp.fr/" target="_blank">
+														<div align="center"><button type="button" class="btn btn-warning" >
+															Voir le site
+															</button>
+														</div>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
+							  <div class="member d-flex align-items-start">
+								<div class="pic"><img src="img/fc-pro.png" class="img-fluid" alt=""></div>
+								<div class="member-info">
+								  <h4>FC-PRO</h4>
+								  <p>Centre de Formation du lycée Notre Dame de La Providence</p>
+								  <br>
+								<div align="center"><button type="button" class="btn btn-warning" data-bs-toggle="offcanvas" data-bs-target="#FCPROCANVA" aria-controls="FCPROCANVA" >
+									Détails
+									</button>
+								</div>
+								
+								<div class="offcanvas offcanvas-start" tabindex="-1" id="FCPROCANVA" aria-labelledby="FCPROCANVALABEL">
+									<div class="offcanvas-header">
+									<h5 class="offcanvas-title" id="FCPROCANVALABEL">FC-PRO</h5>
+									<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+									</div>
+									<div class="offcanvas-body">
+										<div>
+											Un site basé sur la Framework Symfony, pour le centre de formation du lycée Notre Dame de La Providence.
+										</div>
+										<div class="dropdown mt-3">
+											<a href="https://fcpro-vmazurais.bts.sio-ndlp.fr/page/1" target="_blank">
+												<div align="center"><button type="button" class="btn btn-warning" >
+													Voir le site
+													</button>
+												</div>
+											</a>
+										</div>
+									</div>
+								</div>
+
+								</div>
+							  </div>
+							</div>
+				  
+							<div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
+							  <div class="member d-flex align-items-start">
+								<div class="pic"><img src="img/ndlp.jpeg" class="img-fluid" alt=""></div>
+								<div class="member-info">
+								  <h4>Anciens Élèves Et Amis</h4>
+								  <p>Association des Anciens Élèves et Amis de l'Institut Notre Dame de La Providence</p>
+								  <br>
+									<div align="center"><button type="button" class="btn btn-warning" data-bs-toggle="offcanvas" data-bs-target="#ELEVEAMIS" aria-controls="ELEVEAMIS" >
+										Détails
+										</button>
+									</div>
+									
+									<div class="offcanvas offcanvas-start" tabindex="-1" id="ELEVEAMIS" aria-labelledby="ELEVEAMISLABEL">
+										<div class="offcanvas-header">
+										<h5 class="offcanvas-title" id="ELEVEAMISLABEL">Anciens Élèves Et Amis</h5>
+										<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+										</div>
+										<div class="offcanvas-body">
+											<div>
+												Un site réalisé sur E-Monsite afin de s'adapter à la demande du client qui souhaitait pouvoir modifier son site lui-même.
+											</div>
+											<div class="dropdown mt-3">
+												<a href="https://www.anciens-eleves-et-amis-du-lycee-ndlp.fr/" target="_blank">
+													<div align="center"><button type="button" class="btn btn-warning" >
+														Voir le site
+														</button>
+													</div>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							  </div>
+							</div>
+				  
+							<div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="400">
+							  <div class="member d-flex align-items-start">
+								<div class="pic"><img src="img/futur.png" class="img-fluid" alt=""></div>
+								<div class="member-info">
+								  <h4>Projets à venir</h4>
+								  <p>D'autres projets sont en cours de réalisation, ou vont être réalisés. Ils se trouveront à la suite de ceux-ci.</p>
+								</div>
+							  </div>
+							</div>
+				  
+						</div>
+				</div>
+			</div>
+		</div>
+       
+		<div id="team-single-wrap">
+			<div id="team-single">
+			</div>
+		</div>
+	</div>
+</section> 
+
+<div class="bottom-footer">
+	<div class="container"> 
+		<div class="bottom-footer-left wow fadeInUp" data-wow-duration="1s" data-wow-delay="450ms">
+			<p><span>&#169;Evan Moreau <a href="#" style="color: red;"><b>Portfolio</b></a></span></p>
+
+		</div>		  
+	</div>
+</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/retina.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/wow.min.js"></script>	
+	<script src="js/waypoints.min.js"></script>	
+	<script src="js/jquery.countTo.js"></script>
+	<script src="js/jquery.mixitup.min.js"></script>
+	<script src="js/jquery.prettyPhoto.js"></script>
+	<script src="js/jquery.knob.min.js"></script>	
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/arsha.js"></script>
+	<script src="js/custom.js"></script>
+	<script type="text/javascript">
+	var valid = ``;
+	if(valid == 'true'){
+		$('#confirmBuy').modal('toggle');
+	
+	}
+</script>
+</body>
+</html>
