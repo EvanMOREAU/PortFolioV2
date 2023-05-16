@@ -106,23 +106,23 @@
 		$mail = new PHPMailer();
 
 		$mail->isSMTP();
-		$mail->Host = 'mail.infomaniak.ch';  // Remplacez par l'adresse SMTP de votre serveur de messagerie
+		$mail->Host = 'mail.infomaniak.com';  // Remplacez par l'adresse SMTP de votre serveur de messagerie
 		$mail->SMTPAuth = true;
 		$mail->Username = 'evan.moreau@ik.me';  // Remplacez par votre adresse e-mail
-		$mail->Password = '!';  // Remplacez par votre mot de passe
+		$mail->Password = 'LloydZetrus27122004!';  // Remplacez par votre mot de passe
 		$mail->SMTPSecure = 'ssl';  // Utilisez 'tls' ou 'ssl' en fonction de la configuration de votre serveur
 		$mail->Port = 587;  // Le port SMTP de votre serveur de messagerie
 	
-		$mail->setFrom('votre_email@example.com', 'Votre Nom');
+		$mail->setFrom('evan.moreau@etik.com', 'Votre Nom');
 		$mail->addAddress('evan.moreau@ik.me', 'Destinataire');
 		$mail->Subject = 'Sujet de l\'e-mail';
 		$mail->Body = 'Contenu de l\'e-mail';
 
-		// if ($mail->send()) {
-		// 	echo 'E-mail envoyé avec succès!';
-		// } else {
-		// 	echo 'Erreur lors de l\'envoi de l\'e-mail: ' . $mail->ErrorInfo;
-		// }
+		if ($mail->send()) {
+			echo 'E-mail envoyé avec succès!';
+		} else {
+			echo 'Erreur lors de l\'envoi de l\'e-mail: ' . $mail->ErrorInfo;
+		}
 	?>
 
     <!-- ======= Contact Section ======= -->
@@ -193,11 +193,12 @@
         </div>
       </div><!-- End Contact Section -->
       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	  
 <footer>
 <div class="bottom-footer">
 	<div class="container"> 
 		<div class="bottom-footer-left wow fadeInUp" data-wow-duration="1s" data-wow-delay="450ms">
-			<p><span>&#169;Evan Moreau <a href="#" style="color: red;"><b>Portfolio</b></a></span></p>
+			<p><span>&#169;Evan Moreau <a href="#" style="color: red;"><b>Portfolio</b></a></span> <a href="https://www.linkedin.com/in/evan-moreau-933336271"><img src="img/linkedin.png" width="3%"></a><a href="https://github.com/EvanMOREAU"><img src="img/github.png" width="3%"></a></p>
 
 		</div>		  
 	</div>
