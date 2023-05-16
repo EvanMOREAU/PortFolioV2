@@ -127,7 +127,7 @@
 
     <!-- ======= Contact Section ======= -->
     <div id="contact" class="paddsection">
-        <div class="container">
+        <div class="container"> 
           <div class="contact-block1">
             <div class="row">
 				<div class="section-title wow fadeInDown" data-wow-duration="1s" data-wow-delay="300ms">			
